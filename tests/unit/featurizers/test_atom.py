@@ -134,7 +134,7 @@ def test_mass_bit(x, mass_bit):
         # fmt: on
     ),
 )
-def test_x_orig_default(a, x_v_orig):
+def test_x_orig(a, x_v_orig):
     f = MultiHotAtomFeaturizer()
     x_v_calc = f(a)
 
